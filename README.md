@@ -10,4 +10,4 @@ You can click the Preview link to take a look at your changes.
 --->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=JosephNjorog&repo=github-readme-stats)](https://github.com/JosephNjorog/github-readme-stats)
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?JosephNjoroge=ffflabs)](https://github.com/JosephNjorog/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username= JosephNjoroge)](https://github.com/JosephNjorog/github-readme-stats)
