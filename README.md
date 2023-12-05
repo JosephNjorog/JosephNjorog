@@ -1,0 +1,13 @@
+- 👋 Hi, I’m @JosephNjorog
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+JosephNjorog/JosephNjorog is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=JosephNjorog&repo=github-readme-stats)](https://github.com/JosephNjorog/github-readme-stats)
+
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?JosephNjoroge=ffflabs)](https://github.com/JosephNjorog/github-readme-stats)
