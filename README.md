@@ -1,23 +1,39 @@
+![hello-bambi](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/9d6a3092-8601-49d7-af2c-8e52b8b3df0c)        ![DINO](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/4cc48622-222c-47e9-b86e-395444ab791e)
+
+
 <h1 align="center">Hi 👋, I'm Joseph Njoroge Mwangi</h1>
 <h3 align="center">A passionate frontend/backend developer from Kenya</h3>
 
+![binary](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/f4420bb4-bd2a-42df-bf9b-5f2a6ebf39ac)
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=josephnjorog&label=Profile%20views&color=0e75b6&style=flat" alt="josephnjorog" /> </p>
+
+![coding-freak](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/aa22479a-d097-4c75-b760-90849c26409f)
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=josephnjorog" alt="josephnjorog" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/joe_production1" target="blank"><img src="https://img.shields.io/twitter/follow/joe_production1?logo=twitter&style=for-the-badge" alt="joe_production1" /></a> </p>
 
-- 🔭 I’m currently working on various projects **My Uber project**
+- 🔭 I’m currently working on various projects **My Uber project**![bushack](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/38670da1-7329-4962-bf99-e8bb42d2de0e)
+
+  
 
 - 🌱 I’m currently learning **Full Stack Software Engineering Course at ALX**
+- ![Front back](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/2862549e-bb7d-4f20-843f-26ad792b3f42)
+
 
 - 👨‍💻 All of my projects are available at [In a few](In a few)
 
 - 📝 I regularly write articles on [Not yet in place 💯✅](Not yet in place 💯✅)
 
 - 💬 Ask me about **Python, C language or anything else**
+- ![py](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/e931a30a-fa7f-4ab5-b15d-7d04afb94646)    ![C-lang](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/dac85ad9-25f5-4c7c-9b14-62fb0bebf398)
 
-- 📫 How to reach me **njorojoe11173@gmail.com**
+
+
+- 📫 How to reach me **njorojoe11173@gmail.com** 
 
 - 📄 Know about my experiences [You'll get it 🥴🥴](You'll get it 🥴🥴)
 
@@ -39,3 +55,9 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=josephnjorog&show_icons=true&locale=en" alt="josephnjorog" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=josephnjorog&" alt="josephnjorog" /></p>
+
+
+![Back2work](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/006a9ca7-98b0-4d75-adeb-49db2d633008)  ![PYCHO](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/6fff32bf-4bdb-45f5-ba58-cd521f7f6ae1)
+
+
+          ![buh-bye-bye](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/58854631-2569-4a0d-81af-5b3c61f78504)
