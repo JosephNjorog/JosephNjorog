@@ -56,6 +56,7 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=josephnjorog&" alt="josephnjorog" /></p>
 
+<a href="https://app.daily.dev/joseph_njoroge"><img src="https://api.daily.dev/devcards/v2/M7ropGa7F3Vg6nSe3YB3B.png?type=default&r=fq5" width="356" alt="Joseph Njoroge Mwangi's Dev Card"/></a>
 
 ![Back2work](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/006a9ca7-98b0-4d75-adeb-49db2d633008)  ![PYCHO](https://github.com/JosephNjorog/JosephNjorog/assets/141281465/6fff32bf-4bdb-45f5-ba58-cd521f7f6ae1)
 
