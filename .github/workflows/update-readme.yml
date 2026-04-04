@@ -4,9 +4,13 @@ on:
   schedule:
     # Runs every day at midnight UTC
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Manual trigger from Actions tab
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-readme.yml" # Auto-runs when this file is pushed/updated
 
-# ✅ FIX: Grant write permissions so the bot can commit README changes
 permissions:
   contents: write
 
@@ -47,77 +51,121 @@ jobs:
                 path: `/users/${USERNAME}/repos?sort=updated&per_page=100&page=${page}`,
                 headers: HEADERS,
               };
-              https.get(options, (res) => {
+              const req = https.get(options, (res) => {
                 let data = "";
                 res.on("data", (chunk) => (data += chunk));
                 res.on("end", () => {
-                  const repos = JSON.parse(data);
-                  if (!Array.isArray(repos)) return resolve(accumulated);
-                  const merged = [...accumulated, ...repos];
-                  // If we got a full page, there might be more
-                  if (repos.length === 100) {
-                    fetchAllRepos(page + 1, merged).then(resolve).catch(reject);
-                  } else {
-                    resolve(merged);
+                  try {
+                    const repos = JSON.parse(data);
+                    if (!Array.isArray(repos)) {
+                      console.error("❌ Unexpected API response:", data.slice(0, 300));
+                      return resolve(accumulated);
+                    }
+                    const merged = [...accumulated, ...repos];
+                    if (repos.length === 100) {
+                      fetchAllRepos(page + 1, merged).then(resolve).catch(reject);
+                    } else {
+                      resolve(merged);
+                    }
+                  } catch (e) {
+                    console.error("❌ JSON parse error:", e.message);
+                    resolve(accumulated);
                   }
                 });
-                res.on("error", reject);
+              });
+              req.on("error", (e) => {
+                console.error("❌ Request error:", e.message);
+                reject(e);
               });
             });
           }
 
-          fetchAllRepos().then((repos) => {
-            // Only repos with a homepage URL set (indicates deployment)
-            const deployed = repos
-              .filter(
-                (r) =>
+          const LANG_ICONS = {
+            JavaScript: "![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000)",
+            TypeScript: "![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff)",
+            Python:     "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=fff)",
+            HTML:       "![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=fff)",
+            CSS:        "![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=fff)",
+            Solidity:   "![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat&logo=solidity&logoColor=fff)",
+            Shell:      "![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnu-bash&logoColor=fff)",
+            C:          "![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=000)",
+            Vue:        "![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat&logo=vue.js&logoColor=fff)",
+            Rust:       "![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=fff)",
+            Go:         "![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=fff)",
+          };
+
+          fetchAllRepos()
+            .then((repos) => {
+              console.log(`📦 Total repos fetched: ${repos.length}`);
+
+              const deployed = repos
+                .filter((r) =>
                   r.homepage &&
                   r.homepage.trim() !== "" &&
                   !r.fork &&
                   r.name !== USERNAME
-              )
-              .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
-              .slice(0, 6); // Show top 6 most recently updated
+                )
+                .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+                .slice(0, 6);
 
-            const LANG_ICONS = {
-              JavaScript: "![JS](https://img.shields.io/badge/-JS-F7DF1E?style=flat&logo=javascript&logoColor=000)",
-              TypeScript: "![TS](https://img.shields.io/badge/-TS-3178C6?style=flat&logo=typescript&logoColor=fff)",
-              Python: "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=fff)",
-              HTML: "![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=fff)",
-              CSS: "![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=fff)",
-              Solidity: "![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat&logo=solidity&logoColor=fff)",
-              Shell: "![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnu-bash&logoColor=fff)",
-              C: "![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=000)",
-            };
+              console.log(`🚀 Deployed repos found: ${deployed.length}`);
+              deployed.forEach((r) => console.log(`   → ${r.name}: ${r.homepage}`));
 
-            // Build the markdown table rows
-            const rows = deployed.map((r) => {
-              const langBadge = LANG_ICONS[r.language] || (r.language ? `\`${r.language}\`` : "`—`");
-              const desc = r.description
-                ? r.description.slice(0, 72) + (r.description.length > 72 ? "…" : "")
-                : "No description provided.";
-              const stars = r.stargazers_count > 0 ? ` ⭐${r.stargazers_count}` : "";
-              const live = r.homepage.startsWith("http") ? r.homepage : `https://${r.homepage}`;
-              return `| [**${r.name}**](${r.html_url})${stars} | ${desc} | ${langBadge} | [🔗 Live](${live}) |`;
+              let section;
+
+              if (deployed.length === 0) {
+                section =
+                  `<!-- DEPLOYED-PROJECTS:START -->\n` +
+                  `| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |\n` +
+                  `|:---|:---|:---:|:---:|\n` +
+                  `| _No deployed projects found yet_ | Go to any repo → ⚙️ About → add a **Website URL** to show it here! | — | — |\n` +
+                  `<!-- DEPLOYED-PROJECTS:END -->`;
+              } else {
+                const rows = deployed.map((r) => {
+                  const langBadge =
+                    LANG_ICONS[r.language] ||
+                    (r.language ? `\`${r.language}\`` : "`—`");
+                  const desc = r.description
+                    ? r.description.slice(0, 72) +
+                      (r.description.length > 72 ? "…" : "")
+                    : "No description provided.";
+                  const stars =
+                    r.stargazers_count > 0 ? ` ⭐${r.stargazers_count}` : "";
+                  const live = r.homepage.startsWith("http")
+                    ? r.homepage
+                    : `https://${r.homepage}`;
+                  return `| [**${r.name}**](${r.html_url})${stars} | ${desc} | ${langBadge} | [🔗 Live](${live}) |`;
+                });
+
+                const table = [
+                  "| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |",
+                  "|:---|:---|:---:|:---:|",
+                  ...rows,
+                ].join("\n");
+
+                section =
+                  `<!-- DEPLOYED-PROJECTS:START -->\n${table}\n<!-- DEPLOYED-PROJECTS:END -->`;
+              }
+
+              const readmePath = "README.md";
+              let readme = fs.readFileSync(readmePath, "utf8");
+
+              if (!readme.includes("<!-- DEPLOYED-PROJECTS:START -->")) {
+                console.error("❌ Markers not found in README.md — ensure <!-- DEPLOYED-PROJECTS:START --> and <!-- DEPLOYED-PROJECTS:END --> exist.");
+                process.exit(1);
+              }
+
+              readme = readme.replace(
+                /<!-- DEPLOYED-PROJECTS:START -->[\s\S]*?<!-- DEPLOYED-PROJECTS:END -->/,
+                section
+              );
+              fs.writeFileSync(readmePath, readme);
+              console.log(`✅ README updated with ${deployed.length} deployed project(s).`);
+            })
+            .catch((err) => {
+              console.error("❌ Fatal error:", err);
+              process.exit(1);
             });
-
-            const table = [
-              "| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |",
-              "|:---|:---|:---:|:---:|",
-              ...rows,
-            ].join("\n");
-
-            const section =
-              `<!-- DEPLOYED-PROJECTS:START -->\n${table}\n<!-- DEPLOYED-PROJECTS:END -->`;
-
-            let readme = fs.readFileSync("README.md", "utf8");
-            readme = readme.replace(
-              /<!-- DEPLOYED-PROJECTS:START -->[\s\S]*?<!-- DEPLOYED-PROJECTS:END -->/,
-              section
-            );
-            fs.writeFileSync("README.md", readme);
-            console.log(`✅ Updated README with ${deployed.length} deployed project(s).`);
-          });
           EOF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -127,7 +175,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: 🚀 auto-update deployed projects [skip ci]"
-          git push
+          git diff --cached --quiet && echo "⏭ No changes to commit" || (git commit -m "chore: 🚀 auto-update deployed projects [skip ci]" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
