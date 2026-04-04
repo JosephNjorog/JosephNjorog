@@ -1,0 +1,129 @@
+name: 🚀 Update README — Deployed Projects
+
+on:
+  schedule:
+    # Runs every day at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-readme:
+    name: Fetch Deployed Repos & Update README
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch deployed repos and update README
+        run: |
+          node << 'EOF'
+          const https = require("https");
+          const fs = require("fs");
+
+          const USERNAME = "JosephNjorog";
+          const HEADERS = {
+            "User-Agent": "readme-updater",
+            Authorization: `token ${process.env.GITHUB_TOKEN}`,
+            Accept: "application/vnd.github.v3+json",
+          };
+
+          function fetchAllRepos(page = 1, accumulated = []) {
+            return new Promise((resolve, reject) => {
+              const options = {
+                hostname: "api.github.com",
+                path: `/users/${USERNAME}/repos?sort=updated&per_page=100&page=${page}`,
+                headers: HEADERS,
+              };
+              https.get(options, (res) => {
+                let data = "";
+                res.on("data", (chunk) => (data += chunk));
+                res.on("end", () => {
+                  const repos = JSON.parse(data);
+                  if (!Array.isArray(repos)) return resolve(accumulated);
+                  const merged = [...accumulated, ...repos];
+                  // If we got a full page, there might be more
+                  if (repos.length === 100) {
+                    fetchAllRepos(page + 1, merged).then(resolve).catch(reject);
+                  } else {
+                    resolve(merged);
+                  }
+                });
+                res.on("error", reject);
+              });
+            });
+          }
+
+          fetchAllRepos().then((repos) => {
+            // Only repos with a homepage URL set (indicates deployment)
+            const deployed = repos
+              .filter(
+                (r) =>
+                  r.homepage &&
+                  r.homepage.trim() !== "" &&
+                  !r.fork &&
+                  r.name !== USERNAME
+              )
+              .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+              .slice(0, 6); // Show top 6 most recently updated
+
+            const LANG_ICONS = {
+              JavaScript: "![JS](https://img.shields.io/badge/-JS-F7DF1E?style=flat&logo=javascript&logoColor=000)",
+              TypeScript: "![TS](https://img.shields.io/badge/-TS-3178C6?style=flat&logo=typescript&logoColor=fff)",
+              Python: "![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=fff)",
+              HTML: "![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=fff)",
+              CSS: "![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=fff)",
+              Solidity: "![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat&logo=solidity&logoColor=fff)",
+              Shell: "![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnu-bash&logoColor=fff)",
+              C: "![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=000)",
+            };
+
+            // Build the markdown table rows
+            const rows = deployed.map((r) => {
+              const langBadge = LANG_ICONS[r.language] || (r.language ? `\`${r.language}\`` : "`—`");
+              const desc = r.description
+                ? r.description.slice(0, 72) + (r.description.length > 72 ? "…" : "")
+                : "No description provided.";
+              const stars = r.stargazers_count > 0 ? ` ⭐${r.stargazers_count}` : "";
+              const live = r.homepage.startsWith("http") ? r.homepage : `https://${r.homepage}`;
+              return `| [**${r.name}**](${r.html_url})${stars} | ${desc} | ${langBadge} | [🔗 Live](${live}) |`;
+            });
+
+            const table = [
+              "| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |",
+              "|:---|:---|:---:|:---:|",
+              ...rows,
+            ].join("\n");
+
+            const section =
+              `<!-- DEPLOYED-PROJECTS:START -->\n${table}\n<!-- DEPLOYED-PROJECTS:END -->`;
+
+            let readme = fs.readFileSync("README.md", "utf8");
+            readme = readme.replace(
+              /<!-- DEPLOYED-PROJECTS:START -->[\s\S]*?<!-- DEPLOYED-PROJECTS:END -->/,
+              section
+            );
+            fs.writeFileSync("README.md", readme);
+            console.log(`✅ Updated README with ${deployed.length} deployed project(s).`);
+          });
+          EOF
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: 🚀 auto-update deployed projects [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
