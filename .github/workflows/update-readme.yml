@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   update-readme:
-    name: Fetch Deployed Repos & Update README
+    name: Fetch Deployed Repos (Public + Private) & Update README
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -24,23 +24,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use PAT so we can also read private repos and push back
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Fetch deployed repos and update README
+      - name: Fetch all repos (public + private) and update README
         run: |
           node << 'EOF'
           const https = require("https");
           const fs = require("fs");
 
           const USERNAME = "JosephNjorog";
+
+          // ✅ PAT_TOKEN gives access to BOTH public and private repos
+          // The /user/repos endpoint with affiliation=owner returns everything you own
           const HEADERS = {
             "User-Agent": "readme-updater",
-            Authorization: `token ${process.env.GITHUB_TOKEN}`,
+            Authorization: `token ${process.env.PAT_TOKEN}`,
             Accept: "application/vnd.github.v3+json",
           };
 
@@ -48,7 +52,11 @@ jobs:
             return new Promise((resolve, reject) => {
               const options = {
                 hostname: "api.github.com",
-                path: `/users/${USERNAME}/repos?sort=updated&per_page=100&page=${page}`,
+                // ✅ KEY CHANGE: /user/repos instead of /users/{username}/repos
+                // /user/repos with the PAT returns ALL repos including private ones
+                // affiliation=owner ensures we only get repos you own (not org repos you're a member of)
+                // visibility=all ensures both public and private are returned
+                path: `/user/repos?affiliation=owner&visibility=all&sort=updated&per_page=100&page=${page}`,
                 headers: HEADERS,
               };
               const req = https.get(options, (res) => {
@@ -92,12 +100,21 @@ jobs:
             Vue:        "![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=flat&logo=vue.js&logoColor=fff)",
             Rust:       "![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=fff)",
             Go:         "![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=fff)",
+            Dart:       "![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=fff)",
+            Java:       "![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=fff)",
+            PHP:        "![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=fff)",
           };
 
           fetchAllRepos()
             .then((repos) => {
               console.log(`📦 Total repos fetched: ${repos.length}`);
 
+              // Separate public and private for logging
+              const publicRepos  = repos.filter((r) => !r.private);
+              const privateRepos = repos.filter((r) => r.private);
+              console.log(`   🔓 Public: ${publicRepos.length}  🔒 Private: ${privateRepos.length}`);
+
+              // Filter: has a homepage URL, not a fork, not the profile repo itself
               const deployed = repos
                 .filter((r) =>
                   r.homepage &&
@@ -106,19 +123,21 @@ jobs:
                   r.name !== USERNAME
                 )
                 .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
-                .slice(0, 6);
+                .slice(0, 8); // Show up to 8 most recently updated deployed projects
 
               console.log(`🚀 Deployed repos found: ${deployed.length}`);
-              deployed.forEach((r) => console.log(`   → ${r.name}: ${r.homepage}`));
+              deployed.forEach((r) =>
+                console.log(`   → [${r.private ? "🔒 private" : "🔓 public"}] ${r.name}: ${r.homepage}`)
+              );
 
               let section;
 
               if (deployed.length === 0) {
                 section =
                   `<!-- DEPLOYED-PROJECTS:START -->\n` +
-                  `| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |\n` +
-                  `|:---|:---|:---:|:---:|\n` +
-                  `| _No deployed projects found yet_ | Go to any repo → ⚙️ About → add a **Website URL** to show it here! | — | — |\n` +
+                  `| 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |\n` +
+                  `|:---|:---|:---:|:---:|:---:|\n` +
+                  `| _No deployed projects found yet_ | Go to any repo → ⚙️ About → add a **Website URL** to show it here! | — | — | — |\n` +
                   `<!-- DEPLOYED-PROJECTS:END -->`;
               } else {
                 const rows = deployed.map((r) => {
@@ -126,20 +145,25 @@ jobs:
                     LANG_ICONS[r.language] ||
                     (r.language ? `\`${r.language}\`` : "`—`");
                   const desc = r.description
-                    ? r.description.slice(0, 72) +
-                      (r.description.length > 72 ? "…" : "")
-                    : "No description provided.";
+                    ? r.description.slice(0, 68) +
+                      (r.description.length > 68 ? "…" : "")
+                    : "_No description_";
                   const stars =
                     r.stargazers_count > 0 ? ` ⭐${r.stargazers_count}` : "";
                   const live = r.homepage.startsWith("http")
                     ? r.homepage
                     : `https://${r.homepage}`;
-                  return `| [**${r.name}**](${r.html_url})${stars} | ${desc} | ${langBadge} | [🔗 Live](${live}) |`;
+                  // For private repos, link to homepage only (repo URL is private)
+                  const repoLink = r.private
+                    ? `**${r.name}**${stars}`
+                    : `[**${r.name}**](${r.html_url})${stars}`;
+                  const visibility = r.private ? "🔒" : "🔓";
+                  return `| ${repoLink} | ${desc} | ${langBadge} | ${visibility} | [🔗 Live](${live}) |`;
                 });
 
                 const table = [
-                  "| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |",
-                  "|:---|:---|:---:|:---:|",
+                  "| 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |",
+                  "|:---|:---|:---:|:---:|:---:|",
                   ...rows,
                 ].join("\n");
 
@@ -168,7 +192,7 @@ jobs:
             });
           EOF
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit and push changes
         run: |
@@ -177,4 +201,4 @@ jobs:
           git add README.md
           git diff --cached --quiet && echo "⏭ No changes to commit" || (git commit -m "chore: 🚀 auto-update deployed projects [skip ci]" && git push)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
