@@ -168,7 +168,12 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |
 |:---|:---|:---:|:---:|
-| [**your-repo-name**](https://github.com/JosephNjorog) | Add a **Website** field to your GitHub repos and this table auto-fills! | `—` | [🔗 Live](#) |
+| [**worst**](https://github.com/JosephNjorog/worst) | No description provided. | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | [🔗 Live](https://theworstfriendspodcast.vercel.app) |
+| [**synchstack-enterprise-suite**](https://github.com/JosephNjorog/synchstack-enterprise-suite) | No description provided. | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | [🔗 Live](https://synchstackerps.vercel.app) |
+| [**HappyBirthday**](https://github.com/JosephNjorog/HappyBirthday) | Simple | ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=fff) | [🔗 Live](https://hbdlavender.vercel.app) |
+| [**VampireR**](https://github.com/JosephNjorog/VampireR) | I was bored of keeping loosing my remote and so i created mine that i ca… | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | [🔗 Live](https://vampire-remote.vercel.app) |
+| [**Mwangi-Sons-Borehole-Services-Admin**](https://github.com/JosephNjorog/Mwangi-Sons-Borehole-Services-Admin) | This project aims to develop a comprehensive computerized database syste… | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=fff) | [🔗 Live](https://uzima-sacco-kcse.vercel.app) |
+| [**Skeleton-effect-**](https://github.com/JosephNjorog/Skeleton-effect-) | No description provided. | ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=fff) | [🔗 Live](https://skeleton-effect.vercel.app) |
 <!-- DEPLOYED-PROJECTS:END -->
 
 > 💡 **How this works:** The workflow in `.github/workflows/update-readme.yml` runs every 24 hours, calls the GitHub API, finds all your repos that have a **Website / Homepage URL** set, and rewrites this table automatically. To add a project here — go to the repo → ⚙️ Settings (gear icon) → add your live URL in the **Website** field.
