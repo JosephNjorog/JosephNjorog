@@ -1,213 +1,255 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=24,12,25,27,16&height=300&section=header&text=Joseph%20Njoroge%20Mwangi&fontSize=70&animation=fadeIn&fontColor=FFFFFF&fontAlignY=35&desc=Transforming%20Ideas%20into%20Digital%20Reality&descSize=25&descAlignY=55">
 
-  <!-- Animated Introduction Banner -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3EDDFE&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%F0%9F%9A%80;Software+Architect+%F0%9F%8F%97%EF%B8%8F;Cloud+Computing+Enthusiast+%E2%98%81%EF%B8%8F;ALX+Graduate+%F0%9F%8E%93;Open+Source+Contributor+%F0%9F%8C%9F" />
+<!-- DYNAMIC HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0891b2,100:3EDDFE&height=280&section=header&text=Joseph%20Mwangi&fontSize=80&animation=fadeIn&fontColor=FFFFFF&fontAlignY=38&desc=Full%20Stack%20Engineer%20%7C%20Cloud%20Architect%20%7C%20Kenya%20%F0%9F%87%B0%F0%9F%87%AA&descSize=22&descAlignY=60&descColor=3EDDFE" />
+
+<!-- LIVE TYPING SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=3EDDFE&center=true&vCenter=true&repeat=true&width=650&lines=%22There's+no+Security+on+Earth%2C+Only+Opportunity%22;Full+Stack+Developer+%F0%9F%9A%80;Cloud+%26+DevOps+Architect+%E2%98%81%EF%B8%8F;Web3+%26+Blockchain+Builder+%E2%9B%93;ALX+Software+Engineering+Graduate+%F0%9F%8E%93;Open+Source+Contributor+%F0%9F%8C%9F" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- BADGES ROW -->
+<p>
+  <a href="https://josephmwangi.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=3EDDFE&labelColor=0D1117&color=3EDDFE" alt="Portfolio"/>
   </a>
+  <a href="https://linkedin.com/in/josephmwangi-fullstackdev-mentalsynch" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=3EDDFE&labelColor=0D1117&color=3EDDFE" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/code_mwangi" target="_blank">
+    <img src="https://img.shields.io/badge/X_(Twitter)-0D1117?style=for-the-badge&logo=x&logoColor=3EDDFE&labelColor=0D1117&color=3EDDFE" alt="Twitter/X"/>
+  </a>
+  <a href="https://medium.com/@Joseph_Mwangi" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-0D1117?style=for-the-badge&logo=medium&logoColor=3EDDFE&labelColor=0D1117&color=3EDDFE" alt="Medium"/>
+  </a>
+  <a href="mailto:njorojoe11173@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=3EDDFE&labelColor=0D1117&color=3EDDFE" alt="Gmail"/>
+  </a>
+</p>
 
-  <!-- Profile Views Counter with Custom Style -->
-  <img src="https://komarev.com/ghpvc/?username=josephnjorog&style=for-the-badge&color=0891b2&labelColor=1c1917" />
+<!-- PROFILE COUNTERS -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=JosephNjorog&style=for-the-badge&color=3EDDFE&labelColor=0D1117&label=PROFILE+VIEWS" />
+  <a href="https://github.com/JosephNjorog?tab=followers">
+    <img src="https://custom-icon-badges.demolab.com/github/followers/JosephNjorog?color=3EDDFE&labelColor=0D1117&style=for-the-badge&logo=person-add&label=FOLLOWERS&logoColor=3EDDFE"/>
+  </a>
+  <a href="https://github.com/JosephNjorog?tab=repositories&sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/JosephNjorog?color=3EDDFE&style=for-the-badge&labelColor=0D1117&logo=star&logoColor=3EDDFE&label=STARS"/>
+  </a>
+</p>
 
-  <!-- Animated Badges -->
-  <p align="center">
-    <a href="https://wakatime.com/@josephnjorog">
-      <img src="https://wakatime.com/badge/user/josephnjorog.svg?style=for-the-badge" alt="Total time coded" />
-    </a>
-    <a href="https://github.com/josephnjorog?tab=followers">
-      <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/josephnjorog?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-    </a>
-    <a href="https://github.com/josephnjorog?tab=repositories&sort=stargazers">
-      <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/josephnjorog?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
-    </a>
-  </p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-  <!-- Animated Divider -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-<!-- Animated About Me Section -->
-<div align="center">
-  <h2>
-    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"> 
-    About Me
-    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px">
-  </h2>
-  
-  <!-- Animated Code Block -->
-  <div align="left">
-  
+---
+
+## ⚡ `whoami`
+
 ```typescript
-// Life Philosophy: Code, Create, Innovate 🚀
-const Joseph = {
-    pronouns: "He" | "Him",
-    location: "Kenya 🇰🇪",
-    current: {
-        focus: ["System Design", "Cloud Architecture", "AI Integration"],
-        learning: ["Kubernetes", "Web3", "Machine Learning"],
-        working_on: "Building next-gen web applications"
-    },
-    experience: {
-        education: "ALX Software Engineering Graduate 🎓",
-        specialization: ["Full Stack Development", "Cloud Solutions"],
-        interests: ["Open Source", "Tech Innovation", "Digital Art"]
-    },
-    technical_background: {
-        code: ["JavaScript", "TypeScript", "Python", "C", "Shell"],
-        web: {
-            frontend: ["React", "Next.js", "TailwindCSS", "Three.js"],
-            backend: ["Node.js", "Express", "FastAPI", "GraphQL"],
-            database: ["MongoDB", "PostgreSQL", "Redis"]
-        },
-        devOps: ["Docker", "AWS", "GCP", "CircleCI", "Terraform"],
-        architecture: ["Microservices", "Event-Driven", "Serverless"]
-    },
-    current_favorite_stack: {
-        frontend: "Next.js with TailwindCSS",
-        backend: "Node.js with TypeScript",
-        database: "PostgreSQL",
-        styling: "Styled-Components",
-        deployment: "Docker + AWS"
-    },
-    fun_fact: "I debug in my dreams and wake up with solutions! 🧙‍♂️"
+// Neal Caffrey was right — there's no security on earth, only opportunity.
+const joseph: Developer = {
+  name:     "Joseph Njoroge Mwangi",
+  alias:    "JosephNjorog",
+  location: "Nairobi, Kenya 🇰🇪",
+  orgs:     ["@MentalSynch", "@SynchStack-Solutions"],
+
+  currently: {
+    building:  ["Next-gen web applications", "Blockchain-powered dApps", "Cloud-native microservices"],
+    learning:  ["Kubernetes", "Web3 / Solidity", "Machine Learning", "AI Integration"],
+    open_to:   ["Collaboration", "Freelance contracts", "Open source contributions"],
+  },
+
+  stack: {
+    languages:  ["TypeScript", "JavaScript", "Python", "C", "Bash/Shell"],
+    frontend:   ["React", "Next.js", "TailwindCSS", "Three.js", "Redux"],
+    backend:    ["Node.js", "Express", "FastAPI", "GraphQL"],
+    databases:  ["PostgreSQL", "MongoDB", "Redis"],
+    devops:     ["Docker", "Kubernetes", "AWS", "GCP", "CircleCI", "Terraform"],
+    web3:       ["Solidity", "Hardhat", "IPFS", "NFTs", "Smart Contracts"],
+    patterns:   ["Microservices", "Event-Driven", "Serverless", "RESTful APIs"],
+  },
+
+  education:  "ALX Software Engineering Graduate 🎓",
+  fun_fact:   "I debug in my dreams and wake up with solutions 🧙‍♂️",
 };
 ```
 
-  </div>
+---
+
+## 🛠️ Tech Stack & Tools
+
+<div align="center">
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3EDDFE)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3EDDFE)
+![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=3EDDFE)
+![Shell](https://img.shields.io/badge/Shell-0D1117?style=for-the-badge&logo=gnu-bash&logoColor=3EDDFE)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0D1117?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
+![Three.js](https://img.shields.io/badge/Three.js-0D1117?style=for-the-badge&logo=three.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-0D1117?style=for-the-badge&logo=redux&logoColor=764ABC)
+
+**Backend & Databases**
+
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-0D1117?style=for-the-badge&logo=graphql&logoColor=E10098)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=336791)
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=47A248)
+![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=DC382D)
+
+**DevOps & Cloud**
+
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
+![AWS](https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
+![GCP](https://img.shields.io/badge/GCP-0D1117?style=for-the-badge&logo=google-cloud&logoColor=4285F4)
+![Terraform](https://img.shields.io/badge/Terraform-0D1117?style=for-the-badge&logo=terraform&logoColor=7B42BC)
+![CircleCI](https://img.shields.io/badge/CircleCI-0D1117?style=for-the-badge&logo=circleci&logoColor=343434)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=github-actions&logoColor=2088FF)
+
+**Web3 & Blockchain**
+
+![Solidity](https://img.shields.io/badge/Solidity-0D1117?style=for-the-badge&logo=solidity&logoColor=363636)
+![Hardhat](https://img.shields.io/badge/Hardhat-0D1117?style=for-the-badge&logo=ethereum&logoColor=FFF100)
+![IPFS](https://img.shields.io/badge/IPFS-0D1117?style=for-the-badge&logo=ipfs&logoColor=65C2CB)
+![Web3.js](https://img.shields.io/badge/Web3.js-0D1117?style=for-the-badge&logo=web3.js&logoColor=F16822)
+
 </div>
 
-<!-- Animated Tech Stack -->
+---
+
+## 📊 GitHub Analytics
+
 <div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
-    Tech Stack & Tools
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
-  </h2>
-  
-  <!-- Programming Languages -->
-  <img src="https://skillicons.dev/icons?i=js,ts,python,c,bash" />
-  <br>
-  <!-- Frontend -->
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,redux" />
-  <br>
-  <!-- Backend & Database -->
-  <img src="https://skillicons.dev/icons?i=nodejs,express,graphql,mongodb,postgres,redis" />
-  <br>
-  <!-- DevOps & Tools -->
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,github,gitlab" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JosephNjorog&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=3EDDFE&title_color=3EDDFE&icon_color=3EDDFE&text_color=FFFFFF" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JosephNjorog&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3EDDFE&text_color=FFFFFF"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=JosephNjorog&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=3EDDFE&fire=3EDDFE&currStreakLabel=3EDDFE&sideLabels=FFFFFF&dates=888888" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=JosephNjorog&custom_title=Joseph's%20Contribution%20Graph&bg_color=0D1117&color=3EDDFE&line=3EDDFE&point=FFFFFF&area=true&area_color=3EDDFE&hide_border=true" />
+
 </div>
 
-<!-- Animated Stats Section -->
+---
+
+## 🏆 GitHub Trophies
+
 <div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px">
-    GitHub Analytics
-    <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px">
-  </h2>
 
-  <!-- GitHub Stats Cards with Animations -->
-  <p>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=josephnjorog&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=3EDDFE" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=josephnjorog&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-  </p>
+![Trophy](https://github-profile-trophy.vercel.app/?username=JosephNjorog&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
 
-  <!-- GitHub Streak Stats -->
-  <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=josephnjorog&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=3EDDFE&fire=3EDDFE&currStreakLabel=3EDDFE" />
-  </p>
-
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=josephnjorog&custom_title=Joseph's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=3EDDFE&line=3EDDFE&point=FFFFFF&hide_border=true" />
 </div>
 
-<!-- Latest Projects Section -->
-<div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
-    Latest Projects
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
-  </h2>
+---
 
-<!-- BLOG-POST-LIST:START -->
-- 🚗 [Uber Clone](https://github.com/josephnjorog/uber-clone) - Advanced ride-sharing platform
-- 🎯 [Task Manager Pro](https://github.com/josephnjorog/task-manager) - Smart task management system
-- 💼 [Portfolio 3D](https://github.com/josephnjorog/portfolio) - Interactive 3D portfolio
-- 🌦️ [Weather Dashboard](https://github.com/josephnjorog/weather-app) - Real-time weather tracking
-- 🛒 [E-commerce Platform](https://github.com/josephnjorog/shop-api) - Modern e-commerce solution
-<!-- BLOG-POST-LIST:END -->
+## 🚀 Live Deployed Projects
+
+> *Auto-updated daily by GitHub Actions — only repos with a live deployment URL are shown*
+
+<div align="center">
+
+<!-- DEPLOYED-PROJECTS:START -->
+| 📦 Repository | 📝 Description | 🛠 Language | 🌍 Live |
+|:---|:---|:---:|:---:|
+| [**your-repo-name**](https://github.com/JosephNjorog) | Add a **Website** field to your GitHub repos and this table auto-fills! | `—` | [🔗 Live](#) |
+<!-- DEPLOYED-PROJECTS:END -->
+
+> 💡 **How this works:** The workflow in `.github/workflows/update-readme.yml` runs every 24 hours, calls the GitHub API, finds all your repos that have a **Website / Homepage URL** set, and rewrites this table automatically. To add a project here — go to the repo → ⚙️ Settings (gear icon) → add your live URL in the **Website** field.
+
 </div>
 
-<!-- Spotify Now Playing -->
-<div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/j0HjChGV0J44KrrlGv/giphy.gif" width="30px">
-    Now Playing
-    <img src="https://media.giphy.com/media/j0HjChGV0J44KrrlGv/giphy.gif" width="30px">
-  </h2>
+---
 
-  [![Spotify](https://novatorem-josephnjorog.vercel.app/api/spotify)](https://open.spotify.com/user/31a8an6waqzcvjhbxycih7e4d7be)
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JosephNjorog/JosephNjorog/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JosephNjorog/JosephNjorog/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/JosephNjorog/JosephNjorog/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
 </div>
 
-<!-- Contribution Graph -->
+---
+
+## 🎵 Vibing To
+
 <div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/M9kgjEsLG6LMbYC9dl/giphy.gif" width="30px">
-    Contribution Graph
-    <img src="https://media.giphy.com/media/M9kgjEsLG6LMbYC9dl/giphy.gif" width="30px">
-  </h2>
-  
-  <!-- Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/josephnjorog/josephnjorog/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/josephnjorog/josephnjorog/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/josephnjorog/josephnjorog/output/github-contribution-grid-snake.svg" />
-  </picture>
+
+[![Spotify](https://novatorem-josephnjorog.vercel.app/api/spotify)](https://open.spotify.com/user/31a8an6waqzcvjhbxycih7e4d7be)
+
 </div>
 
-<!-- Trophies -->
+---
+
+## 💡 Random Dev Quote
+
 <div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="30px">
-    GitHub Trophies
-    <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="30px">
-  </h2>
-  
-  ![Trophy](https://github-profile-trophy.vercel.app/?username=josephnjorog&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=5&margin-h=5)
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
 </div>
 
-<!-- Connect With Me -->
+---
+
+## 🌐 Let's Connect
+
 <div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30px">
-    Connect with Me
-    <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30px">
-  </h2>
-  
-  <!-- Social Links -->
-  <a href="https://twitter.com/joe_production1">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white&color=black" alt="Twitter"/>
+
+<p>
+  <a href="https://josephmwangi.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌍_Portfolio-josephmwangi.vercel.app-3EDDFE?style=for-the-badge&labelColor=0D1117" />
   </a>
-  <a href="https://linkedin.com/in/joseph-njoroge">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</p>
+
+<p>
+  <a href="https://twitter.com/code_mwangi" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-%40code__mwangi-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0D1117" />
+  </a>
+  <a href="https://linkedin.com/in/josephmwangi-fullstackdev-mentalsynch" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Joseph_Mwangi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" />
   </a>
   <a href="mailto:njorojoe11173@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Gmail-njorojoe11173@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" />
   </a>
-  <a href="https://instagram.com/joe_njorographics">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/>
+  <a href="https://instagram.com/joe_njorographics" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%40joe__njorographics-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" />
   </a>
-</div>
+  <a href="https://medium.com/@Joseph_Mwangi" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-%40Joseph__Mwangi-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=0D1117" />
+  </a>
+  <a href="https://www.facebook.com/joe.njoro.921" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-Joe_Njoro-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0D1117" />
+  </a>
+</p>
 
-<!-- Footer -->
-<div align="center">
-  <!-- Animated Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=24,12,25,27,16&height=100&section=footer&animation=twinkling" width="100%">
-  
-  <p>
-    <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
-  </p>
-  
-  <p>
-    <strong>Thanks for visiting! Let's connect and build something amazing together!</strong>
-  </p>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3EDDFE,50:0891b2,100:0D1117&height=120&section=footer&animation=twinkling" width="100%"/>
+
+<p>
+  <sub>⚡ Built with passion from Nairobi, Kenya 🇰🇪 — Let's build something remarkable together.</sub>
+</p>
+
 </div>
