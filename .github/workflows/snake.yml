@@ -9,6 +9,10 @@ on:
     branches:
       - main
 
+# ✅ FIX: Grant write permissions so the bot can push to the output branch
+permissions:
+  contents: write
+
 jobs:
   generate:
     name: Generate Snake Animation
