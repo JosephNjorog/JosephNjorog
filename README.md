@@ -168,8 +168,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **pefayouth** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://pefayouthkajiado.vercel.app) |
 | **katanu-property-management** | A comprehensive, modern property management solution | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://katanu-property-management.vercel.app) |
+| **pefayouth** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://pefayouthkajiado.vercel.app) |
 | **autoflow-the-car-care-hub** | AutoFlow is a full-stack, multi-role SaaS platform that bridges trad… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autopayke.com) |
 | **kurasure-trustvote** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://kurasuretrustvote.vercel.app) |
 | **Author.io** | An intelligent book writing platform that guides authors from blank … | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://author-io-gamma.vercel.app) |
