@@ -168,14 +168,14 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
+| **Brimble-Infra-Application** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://brimble-infra-application.brimble.app) |
+| [**sample-app**](https://github.com/JosephNjorog/sample-app) | _No description_ | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔓 | [🔗 Live](https://sample-app.brimble.app) |
 | **autoflow-the-car-care-hub** | AutoFlow is a full-stack, multi-role SaaS platform that bridges trad… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autopayke.com) |
 | **Valanche** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://valanchedevs.vercel.app) |
 | [**pefayouth**](https://github.com/JosephNjorog/pefayouth) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://pefayouthkajiado.vercel.app) |
 | **katanu-property-management** | A comprehensive, modern property management solution | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://katanu-property-management.vercel.app) |
 | **kurasure-trustvote** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://kurasuretrustvote.vercel.app) |
 | **Author.io** | An intelligent book writing platform that guides authors from blank … | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://author-io-gamma.vercel.app) |
-| **MentalSynch-Landing-Page** | MentalSynch is a human-first, AI-powered wellness platform that comb… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.mentalsynch.com) |
-| **AutoFlow** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autoflowpro-plum.vercel.app) |
 <!-- DEPLOYED-PROJECTS:END -->
 
 > 💡 **How this works:** The workflow in `.github/workflows/update-readme.yml` runs every 24 hours, calls the GitHub API, finds all your repos that have a **Website / Homepage URL** set, and rewrites this table automatically. To add a project here — go to the repo → ⚙️ Settings (gear icon) → add your live URL in the **Website** field.
