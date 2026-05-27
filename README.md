@@ -168,8 +168,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **autoflow-the-car-care-hub** | AutoFlow is a full-stack, multi-role SaaS platform that bridges trad… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autopayke.com) |
 | **MentalSynch-Landing-Page** | MentalSynch is a human-first, AI-powered wellness platform that comb… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.mentalsynch.com) |
+| **autoflow-the-car-care-hub** | AutoFlow is a full-stack, multi-role SaaS platform that bridges trad… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autopayke.com) |
 | [**PlugPlay**](https://github.com/JosephNjorog/PlugPlay) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://plugplayavax.vercel.app) |
 | [**industrial-dashboard**](https://github.com/JosephNjorog/industrial-dashboard) | _No description_ | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔓 | [🔗 Live](https://industrialdashboard.vercel.app) |
 | **fom-system** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://fomsystem.vercel.app) |
