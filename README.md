@@ -168,7 +168,7 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **ContractIQ** | _No description_ | `—` | 🔒 | [🔗 Live](https://edimusoftware.vercel.app) |
+| **ContractIQ** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://edimusoftware.vercel.app) |
 | **autoflow-the-car-care-hub** | AutoFlow is a full-stack, multi-role SaaS platform that bridges trad… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autopayke.com) |
 | **CodeLens-AI** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://codelensai-nine.vercel.app) |
 | **BlissTouch** | A youthful, creative, and detail-oriented event planning brand that … | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://bliss-touch.vercel.app) |
