@@ -168,9 +168,9 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| [**TEAM1-BLOG-Contributor-Platform**](https://github.com/JosephNjorog/TEAM1-BLOG-Contributor-Platform) | _No description_ | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=fff) | 🔓 | [🔗 Live](https://avaxteam1blogcp.vercel.app) |
-| **minihacktracker** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://minihacktracker.vercel.app) |
 | [**AutoPay**](https://github.com/JosephNjorog/AutoPay) | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://www.autopayke.com/) |
+| **minihacktracker** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://minihacktracker.vercel.app) |
+| [**TEAM1-BLOG-Contributor-Platform**](https://github.com/JosephNjorog/TEAM1-BLOG-Contributor-Platform) | _No description_ | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=fff) | 🔓 | [🔗 Live](https://avaxteam1blogcp.vercel.app) |
 | **ContractIQ** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://edimusoftware.vercel.app) |
 | **Valanche** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://valanchedevs.vercel.app) |
 | **autoflow-the-car-care-hub** | AutoFlow is a full-stack, multi-role SaaS platform that bridges trad… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://autopayke.com) |
