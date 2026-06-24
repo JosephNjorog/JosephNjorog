@@ -168,8 +168,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| [**Wash-Field-Officer**](https://github.com/JosephNjorog/Wash-Field-Officer) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://washfieldofficer.vercel.app) |
 | [**AutoPay**](https://github.com/JosephNjorog/AutoPay) | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://www.autopayke.com/) |
+| [**Wash-Field-Officer**](https://github.com/JosephNjorog/Wash-Field-Officer) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://washfieldofficer.vercel.app) |
 | **minihacktracker** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://minihacktracker.vercel.app) |
 | [**TEAM1-BLOG-Contributor-Platform**](https://github.com/JosephNjorog/TEAM1-BLOG-Contributor-Platform) | _No description_ | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=fff) | 🔓 | [🔗 Live](https://avaxteam1blogcp.vercel.app) |
 | **ContractIQ** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://edimusoftware.vercel.app) |
