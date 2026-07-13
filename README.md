@@ -168,6 +168,7 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
+| [**Pulse-Playtime**](https://github.com/JosephNjorog/Pulse-Playtime) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://pulseplaytimegm.vercel.app) |
 | [**AutoPay**](https://github.com/JosephNjorog/AutoPay) | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://www.autopayke.com/) |
 | **katanu-property-management** | A comprehensive, modern property management solution | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://katanu-property-management.vercel.app) |
 | **duelvault** | A competitive real-money gaming platform where players wager on Ches… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://duelvaultgames.vercel.app) |
@@ -175,7 +176,6 @@ const joseph: Developer = {
 | **minihacktracker** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://minihacktracker.vercel.app) |
 | [**TEAM1-BLOG-Contributor-Platform**](https://github.com/JosephNjorog/TEAM1-BLOG-Contributor-Platform) | _No description_ | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=fff) | 🔓 | [🔗 Live](https://avaxteam1blogcp.vercel.app) |
 | **ContractIQ** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://edimusoftware.vercel.app) |
-| **Valanche** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://valanchedevs.vercel.app) |
 <!-- DEPLOYED-PROJECTS:END -->
 
 > 💡 **How this works:** The workflow in `.github/workflows/update-readme.yml` runs every 24 hours, calls the GitHub API, finds all your repos that have a **Website / Homepage URL** set, and rewrites this table automatically. To add a project here — go to the repo → ⚙️ Settings (gear icon) → add your live URL in the **Website** field.
