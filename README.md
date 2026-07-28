@@ -169,10 +169,10 @@ const joseph: Developer = {
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
 | **duelvault** | A competitive real-money gaming platform where players wager on Ches… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://duelvaultgames.vercel.app) |
-| **MentalSynch-Landing-Page** | MentalSynch is a human-first, AI-powered wellness platform that comb… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.mentalsynch.com) |
-| [**AutoPay**](https://github.com/JosephNjorog/AutoPay) | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://www.autopayke.com/) |
-| **Pulse-Playtime** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://pulseplaytimegm.vercel.app) |
 | **TEAM1-BLOG-Contributor-Platform** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://avaxteam1blogcp.vercel.app) |
+| [**AutoPay**](https://github.com/JosephNjorog/AutoPay) | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://www.autopayke.com/) |
+| **MentalSynch-Landing-Page** | MentalSynch is a human-first, AI-powered wellness platform that comb… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.mentalsynch.com) |
+| **Pulse-Playtime** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://pulseplaytimegm.vercel.app) |
 | **katanu-property-management** | A comprehensive, modern property management solution | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://katanu-property-management.vercel.app) |
 | [**Wash-Field-Officer**](https://github.com/JosephNjorog/Wash-Field-Officer) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://washfieldofficer.vercel.app) |
 | **minihacktracker** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://minihacktracker.vercel.app) |
