@@ -168,6 +168,7 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
+| **AcademiX** | AcademiX - Repository created from Orchids integration | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://academix-taupe.vercel.app) |
 | **duelvault** | A competitive real-money gaming platform where players wager on Ches… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://duelvaultgames.vercel.app) |
 | [**PitchLine**](https://github.com/JosephNjorog/PitchLine) | A cost-conscious, USSD-plus-PWA sports platform for grassroots parti… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://pitchlinesports.vercel.app) |
 | [**AutoPay**](https://github.com/JosephNjorog/AutoPay) | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://www.autopayke.com/) |
@@ -175,7 +176,6 @@ const joseph: Developer = {
 | **MentalSynch-Landing-Page** | MentalSynch is a human-first, AI-powered wellness platform that comb… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.mentalsynch.com) |
 | **Pulse-Playtime** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://pulseplaytimegm.vercel.app) |
 | **katanu-property-management** | A comprehensive, modern property management solution | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://katanu-property-management.vercel.app) |
-| [**Wash-Field-Officer**](https://github.com/JosephNjorog/Wash-Field-Officer) | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔓 | [🔗 Live](https://washfieldofficer.vercel.app) |
 <!-- DEPLOYED-PROJECTS:END -->
 
 > 💡 **How this works:** The workflow in `.github/workflows/update-readme.yml` runs every 24 hours, calls the GitHub API, finds all your repos that have a **Website / Homepage URL** set, and rewrites this table automatically. To add a project here — go to the repo → ⚙️ Settings (gear icon) → add your live URL in the **Website** field.
