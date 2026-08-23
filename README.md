@@ -1,12 +1,10 @@
 <div align="center">
 
-<!-- DYNAMIC HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0891b2,100:3EDDFE&height=280&section=header&text=Joseph%20Mwangi&fontSize=80&animation=fadeIn&fontColor=FFFFFF&fontAlignY=38&desc=Full%20Stack%20Engineer%20%7C%20Cloud%20Architect%20%7C%20Kenya%20%F0%9F%87%B0%F0%9F%87%AA&descSize=22&descAlignY=60&descColor=3EDDFE" />
-
-<!-- LIVE TYPING SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=3EDDFE&center=true&vCenter=true&repeat=true&width=650&lines=%22There's+no+Security+on+Earth%2C+Only+Opportunity%22;Full+Stack+Developer+%F0%9F%9A%80;Cloud+%26+DevOps+Architect+%E2%98%81%EF%B8%8F;Web3+%26+Blockchain+Builder+%E2%9B%93;ALX+Software+Engineering+Graduate+%F0%9F%8E%93;Open+Source+Contributor+%F0%9F%8C%9F" alt="Typing SVG" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+  <img alt="Joseph Mwangi's GitHub profile card" src="dark_mode.svg" width="900">
+</picture>
 
 <br/>
 
