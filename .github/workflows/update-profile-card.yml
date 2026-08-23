@@ -1,0 +1,41 @@
+name: 🪪 Update Profile Card
+
+on:
+  schedule:
+    # Runs daily at 03:00 UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch: # Manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-card:
+    name: Refresh dark_mode.svg / light_mode.svg with live GitHub data
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run today.py
+        run: python3 today.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_PROFILE_USER: ${{ github.repository_owner }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg cache/loc_cache.json
+          git diff --cached --quiet && echo "⏭ No changes to commit" || (git commit -m "chore: 🪪 auto-update profile card [skip ci]" && git push)
