@@ -166,8 +166,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **nairobi-tech-week** ⭐1 | Project codebase for Nairobi tech Week site. | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://nairobi-tech-week.vercel.app) |
 | **AutoPay** | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.autopayke.com/) |
+| **nairobi-tech-week** ⭐1 | Project codebase for Nairobi tech Week site. | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://nairobi-tech-week.vercel.app) |
 | **MentalSynch-Landing-Page** | MentalSynch is a human-first, AI-powered wellness platform that comb… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.mentalsynch.com) |
 | **TEAM1-BLOG-Contributor-Platform** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://avaxteam1blogcp.vercel.app) |
 | **Edimu** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://edimusoftware.vercel.app) |
