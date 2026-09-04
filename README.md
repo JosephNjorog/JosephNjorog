@@ -166,8 +166,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **AcademiX** | AcademiX - Repository created from Orchids integration | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://academixstudy.vercel.app/) |
 | **AutoPay** | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.autopayke.com/) |
+| **AcademiX** | AcademiX - Repository created from Orchids integration | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://academixstudy.vercel.app/) |
 | **Scriptures-API** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://scripturesapidev.vercel.app) |
 | **Walk-in-the-word-2.0** | A transformative daily Bible reading experience that guides you thro… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://walkintheword.vercel.app) |
 | **nairobi-tech-week** ⭐1 | Project codebase for Nairobi tech Week site. | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://nairobi-tech-week.vercel.app) |
