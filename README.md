@@ -166,8 +166,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **PostPiloter** | Youll get it later just relax | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔒 | [🔗 Live](https://postpiloter.vercel.app) |
 | **AutoPay** | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.autopayke.com/) |
+| **PostPiloter** | Youll get it later just relax | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔒 | [🔗 Live](https://postpiloter.vercel.app) |
 | **AcademiX** | AcademiX - Repository created from Orchids integration | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://academixstudy.vercel.app/) |
 | [**industrial-dashboard**](https://github.com/JosephNjorog/industrial-dashboard) | _No description_ | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔓 | [🔗 Live](https://industrialdashboard.vercel.app) |
 | **Scriptures-API** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://scripturesapidev.vercel.app) |
