@@ -166,8 +166,8 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
-| **Njia** | _No description_ | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔒 | [🔗 Live](https://njia-theta.vercel.app) |
 | **AutoPay** | Phone-first money for Africa. Send, receive, and settle value across… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://www.autopayke.com/) |
+| **Njia** | _No description_ | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔒 | [🔗 Live](https://njia-theta.vercel.app) |
 | **Walk-in-the-word-2.0** | A transformative daily Bible reading experience that guides you thro… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://walkintheword.vercel.app) |
 | **Scriptures-API** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://scripturesapidev.vercel.app) |
 | **itech-gadget-inquiry-system** | Project from Orchids.app - itech-gadget-inquiry-system | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://itechgadgetssolutions.vercel.app) |
