@@ -166,6 +166,7 @@ const joseph: Developer = {
 <!-- DEPLOYED-PROJECTS:START -->
 | 📦 Repository | 📝 Description | 🛠 Language | 🔒 | 🌍 Live |
 |:---|:---|:---:|:---:|:---:|
+| **Edimu-V2** | Edimu reviews, drafts, negotiates and monitors contracts with multi-… | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔒 | [🔗 Live](https://edimu.vercel.app) |
 | **Votum** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://votumvote.vercel.app) |
 | **LearnIt** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://learnit-psi-six.vercel.app) |
 | **OpenChats-Podcast** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://openchatspodcast.vercel.app) |
@@ -173,7 +174,6 @@ const joseph: Developer = {
 | **Duka-Tracker** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://duka-tracker-nine.vercel.app) |
 | **Njia** | _No description_ | ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) | 🔒 | [🔗 Live](https://njia-theta.vercel.app) |
 | **Walk-in-the-word-2.0** | A transformative daily Bible reading experience that guides you thro… | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://walkintheword.vercel.app) |
-| **Scriptures-API** | _No description_ | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=fff) | 🔒 | [🔗 Live](https://scripturesapidev.vercel.app) |
 <!-- DEPLOYED-PROJECTS:END -->
 
 > 💡 **How this works:** The workflow in `.github/workflows/update-readme.yml` runs every 24 hours, calls the GitHub API, finds all your repos that have a **Website / Homepage URL** set, and rewrites this table automatically. To add a project here — go to the repo → ⚙️ Settings (gear icon) → add your live URL in the **Website** field.
